@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Practice2(failed)">
+    <classes>
+      <class name="TestNGPkg.TestNGPractice2">
+        <methods>
+          <include name="submit"/>
+          <include name="keyInFirstName"/>
+          <include name="keyInPhno"/>
+          <include name="keyInLastName"/>
+          <include name="openURL"/>
+          <include name="keyInEmail"/>
+          <include name="keyInPwd"/>
+          <include name="policy"/>
+          <include name="keyInConfirmPwd"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestNGPkg.TestNGPractice2 -->
+    </classes>
+  </test> <!-- Practice2(failed) -->
+</suite> <!-- Failed suite [TestNG] -->
